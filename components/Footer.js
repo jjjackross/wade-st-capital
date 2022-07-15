@@ -1,5 +1,5 @@
 import LinkedIn from '../src/svg/icon-linkedin.js';
-// import Link from 'next/link'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
