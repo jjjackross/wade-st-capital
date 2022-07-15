@@ -40,7 +40,7 @@ const Header = () => {
                     {/* Desktop Navigation */}
                     <nav className="hidden md:flex flex-row gap-3">
                         { navURLs.map(([title, url]) => (
-                            <Link href={ url }>
+                            <Link key={i} href={ url }>
                                 <a className="transition ease-in-out duration-250 text-slate-700 border border-slate-400 px-3 py-2 font-medium
                                 hover:cursor-pointer hover:text-slate-50 hover:border-blue-700 hover:bg-blue-700
                                 active:transition-none active:bg-blue-900 active:border-blue-900">{ title }</a>
@@ -81,9 +81,9 @@ const Header = () => {
                         </div>
                         <nav className="flex flex-col items-center justify-center flex-grow gap-6">
                             { navURLs.map(([title, url]) => (
-                                <Link href={ url }>
-                                <a className="text-3xl text-slate-700" onClick={ handleMobileMenu }>{ title }</a>
-                            </Link>
+                                <Link key={i} href={ url }>
+                                    <a className="text-3xl text-slate-700" onClick={ handleMobileMenu }>{ title }</a>
+                                </Link>
                             ))}
                         </nav>
                     </div>
