@@ -25,8 +25,8 @@ const Header = () => {
 
     return (
         <>
-            <header className="bg-slate-50 p-4 border-b border-slate-400 w-full">
-                <div className="flex justify-between items-center md:max-w-5xl mx-auto">
+            <header className="bg-white p-4 border-b border-slate-400 w-full">
+                <div className="flex justify-between items-center mx-auto">
                     <Link href="/">
                         <Image
                             src={ Logo }
@@ -64,8 +64,7 @@ const Header = () => {
             {/* Mobile Navigation */}
             {
                 showMobileMenu ?
-                <header className={`fixed top-0 left-0 bg-slate-50 w-screen h-screen md:hidden z-10 overscroll-none ${
-                        showMobileMenu ? "" : '' }` }>
+                <header className={"fixed top-0 left-0 bg-slate-50 w-screen h-screen md:hidden z-10 overscroll-none" }>
                     <div className="flex flex-col w-full h-full">
                         <div className="p-4 flex items-center justify-between border-b border-slate-400 w-full">
                             <Link href="/">
