@@ -5,8 +5,7 @@ const ImageTextAndButton = (props) => {
     return (
         <div className="flex flex-col md:flex-row bg-slate-400 w-full md:h-[36rem] lg:h-[30rem] xl:h-[40rem] 2xl:h-[34rem]">
             <div className="relative md:w-1/2 h-60 md:h-full">
-                <Image 
-                    className=""
+                <Image
                     src={ props.imgPath }
                     alt={ props.imgAltText }
                     loading="eager"

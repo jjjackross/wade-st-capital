@@ -45,7 +45,7 @@ const ContactForm = () => {
                         name="message"
                         required
                         minLength="10"
-                        className="resize-y border border-slate-400 mb-6 rounded-none outline-none p-2 bg-slate-50 focus:border-slate-700"
+                        className="resize-y border border-slate-400 mb-8 rounded-none outline-none p-2 bg-slate-50 focus:border-slate-700"
                     />
 
                     <input type="submit" value="Submit" className="transition ease-in-out duration-250 uppercase font-medium text-slate-700 border border-slate-400 py-2

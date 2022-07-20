@@ -8,15 +8,9 @@ import Link from 'next/link'
 import { useState } from 'react';
 
 
-const Header = () => {
+const Header = (props) => {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
-    const navURLs = [
-        ['Home', '/'],
-        ['Team', '/team'],
-        ['About', '/about'],
-        ['Why Wade', '/why-wade'],
-        ['Contact', '/contact']
-    ]
+    const navURLs = props.navURLs
 
     const handleMobileMenu = () => {
         setShowMobileMenu(!showMobileMenu);

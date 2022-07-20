@@ -2,11 +2,10 @@ import Image from 'next/image';
 
 const ServiceCard = (props) => {
     return (
-        <div className="bg-slate-700 rounded-md shadow-md shadow-slate-700/60 w-full h-full max-w-full flex flex-col overflow-hidden
-        transition-none md:transition md:ease-in-out md:delay-75 md:hover:-translate-y-1 md:hover:scale-105 md:hover:shadow-2xl md:duration-300">
+        <div className="transition-none bg-slate-700 rounded-md shadow-md shadow-slate-700/60 w-full h-full max-w-full flex flex-col overflow-hidden
+        md:transition md:ease-in-out md:delay-75 md:hover:-translate-y-1 md:hover:scale-105 md:hover:shadow-2xl md:duration-300">
             <div className="relative h-52 w-full">
-                <Image 
-                    className=""
+                <Image
                     src={ props.cardImgPath }
                     alt={ props.cardImgImgAltText }
                     loading="eager"

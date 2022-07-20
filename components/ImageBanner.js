@@ -5,8 +5,7 @@ const ImageBanner = (props) => {
     return (
         <div className="block w-full">
             <div className="relative h-screen">
-                <Image 
-                    className=""
+                <Image
                     src={ props.imgPath }
                     alt={ props.imgAltText }
                     loading="eager"
