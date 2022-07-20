@@ -2,8 +2,8 @@ import ServiceCard from './ServiceCard';
 
 const Services = () => {
     return (
-        <div className="w-full xl:px-16 md:py-4 lg:py-6 xl:py-10">
-            <div className="bg-white flex flex-col justify-around px-8 py-12 gap-12
+        <div className="w-full xl:px-16 md:py-4 lg:py-6 xl:py-10 bg-slate-50">
+            <div className=" bg-slate-50 flex flex-col justify-around px-8 py-12 gap-12
             md:flex-row md:px-8 md:py-14 md:gap-6
             lg:gap-12 xl:gap-20">
                 <ServiceCard

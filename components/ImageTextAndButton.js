@@ -20,7 +20,7 @@ const ImageTextAndButton = (props) => {
                 <p className="text-slate-100 xl:text-xl font-normal leading-relaxed xl:leading-loose mb-6">{ props.content }</p>
                 <Link href={ props.buttonLink }>
                     <a className="transition ease-in-out duration-250 inline-block uppercase border border-slate-100 border-2 p-4 text-slate-100 font-medium
-                    hover:bg-slate-100 hover:text-slate-700 hover:shadow-lg active:bg-slate-300 active:border-slate-300 active:shadow-none">{ props.buttonText }</a>
+                    hover:bg-slate-100 hover:text-slate-700 hover:shadow-lg active:transition-none active:bg-slate-300 active:border-slate-300 active:shadow-none">{ props.buttonText }</a>
                 </Link>
             </div>
         </div>

@@ -2,6 +2,7 @@ import ImageBanner from '../components/ImageBanner';
 import Services from '../components/Services/Services';
 import Statistics from '../components/Statistics/Statistics';
 import ImageTextAndButton from '../components/ImageTextAndButton';
+import ContactForm from '../components/ContactForm';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         buttonText="Meet the Team"
         buttonLink="/team"
       />
+      <ContactForm />
     </>
   )
 }
