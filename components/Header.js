@@ -39,7 +39,7 @@ const Header = (props) => {
                                 hover:cursor-pointer hover:text-slate-50 hover:border-blue-700 hover:bg-blue-700
                                 active:transition-none active:bg-blue-900 active:border-blue-900">{ title }</a>
                             </Link>
-                        ))}
+                        )) }
                     </nav>
 
                     {/* Mobile Menu Button */}

@@ -1,8 +1,9 @@
-const ContactForm = () => {
+const ContactForm = (props) => {
     return (
         <div className="w-full bg-slate-50">
             <div className="py-12 lg:py-20">
-                <h2 className="text-center uppercase text-3xl md:text-5xl font-bold text-slate-700 mb-8">Contact Us</h2>
+                <h2 className="text-center uppercase text-3xl md:text-5xl font-bold text-slate-700 mb-4">Contact Us</h2>
+                <p className="mb-8 text-center max-w-sm md:max-w-2xl mx-auto text-slate-700">{ props.formDescription }</p>
 
                 <form
                   name="contact-wade"
