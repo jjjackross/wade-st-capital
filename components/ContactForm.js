@@ -11,7 +11,7 @@ const ContactForm = () => {
                   netlify-honeypot="company"
                   className="flex flex-col px-8 max-w-2xl mx-auto"
                 >
-                    <label for="company" className="hidden">Company</label>
+                    <label htmlFor="company" className="hidden">Company</label>
                     <input
                         type="text"
                         id="company"
@@ -19,32 +19,32 @@ const ContactForm = () => {
                         className="hidden"
                     />
 
-                    <label for="name" className="uppercase font-medium text-slate-700">Name</label>
+                    <label htmlFor="name" className="uppercase font-medium text-slate-700">Name</label>
                     <input
                         type="text"
                         id="name"
                         name="name"
                         required
-                        minlength="2"
+                        minLength="2"
                         className="border border-slate-400 mb-4 rounded-none outline-none p-2 bg-slate-50 focus:border-slate-700"
                     />
 
-                    <label for="email" className="uppercase font-medium text-slate-700">Email</label>
+                    <label htmlFor="email" className="uppercase font-medium text-slate-700">Email</label>
                     <input
                         type="text"
                         id="email"
                         name="email"
                         required
-                        minlength="3"
+                        minLength="3"
                         className="border border-slate-400 mb-4 rounded-none outline-none p-2 bg-slate-50 focus:border-slate-700"
                     />
 
-                    <label for="message" className="uppercase font-medium text-slate-700">Message</label>
+                    <label htmlFor="message" className="uppercase font-medium text-slate-700">Message</label>
                     <textarea
                         id="message"
                         name="message"
                         required
-                        minlength="10"
+                        minLength="10"
                         className="resize-y border border-slate-400 mb-6 rounded-none outline-none p-2 bg-slate-50 focus:border-slate-700"
                     />
 
